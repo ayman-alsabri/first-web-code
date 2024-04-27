@@ -1,0 +1,44 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+background-image: url(header.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+h1{
+  color: azure;
+  font-weight: 700;
+
+}
+hr{
+  background-color: rgb(223, 219, 213);
+color: aliceblue;
+height: 3px;
+width: 30px;
+
+}
+.container{
+  display: flex;
+  width: 100%;
+  height : 100%;
+  padding: 0%;
+justify-content: center;
+
+  flex-direction: column;
+  align-items: center;
+}
+.spacer{
+  height: 160px;
+}
+
+button{
+  transition: all 1s;
+}
+
+button:hover{
+  color: blue;
+  transform: rotateZ(350deg);
+}
